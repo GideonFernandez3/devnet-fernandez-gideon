@@ -1,7 +1,7 @@
 # Module 1 — Git & GitHub
 
-**Student:** [your name]
-**Date:** [date]
+**Student:** [Gideon Fernandez]
+**Date:** [9-25-26]
 
 ---
 
