@@ -29,7 +29,22 @@ So for github github is a website where git project can be stored git and github
 [so first i made a new branch so i can work without affecting my main branch then i answer the questions after that i have add it and commit it then after that i psuh it and and created a pull request and after pushing it i went to github and created a pull request to merge my branch.]
 
 ```
-# paste your actual commands here
+# PS C:\Gideon Devnet\devnet-fernandez-gideon> git add .
+PS C:\Gideon Devnet\devnet-fernandez-gideon> git commit -m "walk through"
+[notes-answer 7ec9c3f] walk through
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Gideon Devnet\devnet-fernandez-gideon> git push origin notes-answer     
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 518 bytes | 518.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/GideonFernandez3/devnet-fernandez-gideon.git
+   a756970..7ec9c3f  notes-answer -> notes-answer
+PS C:\Gideon Devnet\devnet-fernandez-gideon> 
+
 ```
 
 ---
