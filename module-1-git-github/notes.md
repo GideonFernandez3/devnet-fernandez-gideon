@@ -51,7 +51,7 @@ PS C:\Gideon Devnet\devnet-fernandez-gideon>
 
 ## A mistake I made (or one I want to avoid)
 
-[What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
+[One mistake I want to avoid is forgetting to check which branch I am currently working on.]
 
 ---
 
