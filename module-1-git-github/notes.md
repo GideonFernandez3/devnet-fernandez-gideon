@@ -7,7 +7,9 @@
 
 ## What is Git? What is GitHub? (explain like you're teaching a friend who's never used either)
 
-[Write your own explanation here. What problem does Git actually solve? How is GitHub different from Git itself?]
+[For me git is a tool that can help developers to keep track of their progess of their code and it can save different version of their code so if they make a mistake they can go back and and fix it and it is very useful beacause you track your progess.
+
+So for github github is a website where git project can be stored git and github are different beacause git is a tool while github is a website you can store your project.]
 
 ---
 
