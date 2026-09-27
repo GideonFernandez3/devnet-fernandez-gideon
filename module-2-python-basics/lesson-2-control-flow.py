@@ -13,10 +13,12 @@ teaching a friend who's never coded before)
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
+- condition: Something that the program checks to decide what to do.
+- if: Used to check the first condition. If the condition is true, the code inside it runs. 
+- elif: Means "else if." It checks another condition when the previous condition was false. 
+- else: Runs when none of the previous conditions are true.
+- comparison operator: A symbol used to compare values, such as >, <, ==, >=, and <=.
+- boolean expression: An expression that results in either True or False.
 (add more as needed)
 
 
