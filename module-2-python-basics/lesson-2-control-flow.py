@@ -29,7 +29,12 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+# age = 50
+
+if age >= 20:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
 
 
 """
