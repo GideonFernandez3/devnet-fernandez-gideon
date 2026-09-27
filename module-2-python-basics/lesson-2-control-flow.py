@@ -41,8 +41,7 @@ else:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[One mistake I want to avoid is using the wrong comparison operator. For example, = is used to assign a value to a variable, while == is used to compare two values.]
 
 
 ============================================
