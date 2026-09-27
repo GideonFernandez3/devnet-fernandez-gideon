@@ -13,11 +13,11 @@ teaching a friend who's never coded before)
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
+- list: A collection of different values stored in one variable.
+- for loop: A loop that repeats code for each item in a sequence or list.
+- while loop: A loop that continues running while a condition is true.
+- index: The position of an item inside a list. Python starts counting the index from 0.
+- iteration: One complete repetition of a loop.
 (add more as needed)
 
 
