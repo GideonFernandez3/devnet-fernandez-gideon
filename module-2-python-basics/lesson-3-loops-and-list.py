@@ -37,8 +37,7 @@ for student in students:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[One mistake I want to avoid is creating an infinite while loop. This can happen when the condition never becomes false.]
 
 
 ============================================
