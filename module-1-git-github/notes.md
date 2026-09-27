@@ -15,12 +15,12 @@ So for github github is a website where git project can be stored git and github
 
 ## Key vocabulary (in your own words)
 
-- repository:
-- commit:
-- branch:
-- push / pull:
-- pull request:
-- merge conflict:
+- repository:[it is a storage where i can place my project]
+- commit:[it save what i have change in my project]
+- branch:[it is a separate version of my project]
+- push / pull:[push is me uploading my project to github while pull is getting the latest version of my project]
+- pull request:[it is a request to add the changes to one branch to another]
+- merge conflict:[this happens when two different changes affects the same part of a file]
 
 ---
 
