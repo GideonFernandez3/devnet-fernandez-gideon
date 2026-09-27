@@ -14,12 +14,12 @@ A data type tells Python what kind of information is stored in the variable.]
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
-- data type:
-- int:
-- float:
-- string:
-- boolean:
+- variable: A name used to store a value or information.
+- data type: tells what kind of value is stored
+- int: A whole number, such as 100, 200, or 300.
+- float: A number that has a decimal, such as 10.5 or 3.14.
+- string: Text or characters written inside quotation marks.
+- boolean: A value that can only be True or False.
 (add more as needed)
 
 
