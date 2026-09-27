@@ -1,13 +1,13 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: [Gideon Fernandez]
+Date: [9/27/2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Control flow is used to make a program decide what to do based on a condition. The if, elif, and else statements allow Python to check different conditions and choose the correct action.]
 
 
 ============================================
