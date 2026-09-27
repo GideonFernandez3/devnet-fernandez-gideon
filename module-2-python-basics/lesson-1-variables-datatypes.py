@@ -45,8 +45,7 @@ print("Student:", is_student)
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[One mistake I want to avoid is confusing strings with numbers. For example, "20" is a string while 20 is an integer.]
 
 
 ============================================
