@@ -30,7 +30,15 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+# name = "Gideon" 
+age = 20 
+height = 6.0 
+is_student = True 
+
+print("Name:", name) 
+print("Age:", age) 
+print("Height:", height, "feet") 
+print("Student:", is_student)
 
 
 """
