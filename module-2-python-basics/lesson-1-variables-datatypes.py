@@ -1,13 +1,14 @@
 """
 Module 2 — Lesson 1: Variables & Data Types
-Student: [your name]
-Date: [date]
+Student: [Gideon Fernandez]
+Date: [9/27/2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Variables and data types are basic parts of programming. A variable is like a container where we can store information.
+A data type tells Python what kind of information is stored in the variable.]
 
 
 ============================================
