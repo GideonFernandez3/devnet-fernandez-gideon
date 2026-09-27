@@ -26,7 +26,7 @@ So for github github is a website where git project can be stored git and github
 
 ## Walking through what I did
 
-[Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
+[so first i made a new branch so i can work without affecting my main branch then i answer the questions after that i have add it and commit it then after that i psuh it and and created a pull request and after pushing it i went to github and created a pull request to merge my branch.]
 
 ```
 # paste your actual commands here
