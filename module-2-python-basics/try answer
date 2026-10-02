@@ -1,7 +1,5 @@
 
 """
-Midterm Practical Exam — Network Device Inventory Tool
-Student: [Fernandez,Gideon]
 """
 
 devices = []
