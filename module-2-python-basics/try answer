@@ -69,19 +69,6 @@ def find_device(device_list):
         print("Device not found.")
 
 
-# BONUS (optional)
-def remove_device(device_list):
-    device_name = input("Enter device name to remove: ")
-
-    for device in device_list:
-        if device_name.lower() in device.lower():
-            device_list.remove(device)
-            print("Device removed successfully!")
-            return
-
-    print("Device not found.")
-
-
 def main():
     running = True
 
