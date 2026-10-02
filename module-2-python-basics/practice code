@@ -1,45 +1,98 @@
-// ATM
-balance = 1000
 
-while True:
-    print("\n--- ATM ---")
-    print("1. Check Balance")
-    print("2. Deposit")
-    print("3. Withdraw")
-    print("4. Exit")
+def display_menu():
+# print the menu, return the user's choice
+print(" Student Grade Inventory ")
+print("1. Add a student")
+print("2. View all students")
+print("3. Count passing vs failing students")
+print("4. Find a student by name")
+print("5. Exit")
 
-    choice = input("Choose an option: ")
+```
+choose = input("Enter a number: ")
+return choose
+```
+
+def add_student(student_list):
+# ask for name, grade, status — build the string, add to the list
+name = input("Enter student name: ")
+grade = input("Enter grade: ")
+status = input("Enter status (Passing/Failing): ")
+
+```
+student = name + " | " + grade + " | " + status
+student_list.append(student)
+
+print("Student added successfully!")
+```
+
+def view_students(student_list):
+# loop through and print every student — handle empty list
+if len(student_list) == 0:
+print("No students found.")
+else:
+print("\n=== All Students ===")
+for student in student_list:
+print(student)
+
+def count_passing_failing(student_list):
+# loop through, count Passing vs Failing, return both
+passing = 0
+failing = 0
+
+```
+for student in student_list:
+    if "Passing" in student:
+        passing += 1
+    elif "Failing" in student:
+        failing += 1
+
+return passing, failing
+```
+
+def find_student(student_list):
+# ask for a name, search the list, print result or "not found"
+search_name = input("Enter student name to find: ")
+
+```
+found = False
+
+for student in student_list:
+    if search_name.lower() in student.lower():
+        print("Student found:", student)
+        found = True
+
+if not found:
+    print("Student not found.")
+```
+
+def main():
+running = True
+
+```
+while running:
+    choice = display_menu()
 
     if choice == "1":
-        print("Balance:", balance)
+        add_student(students)
 
     elif choice == "2":
-        amount = float(input("Enter deposit amount: "))
-
-        if amount > 0:
-            balance += amount
-            print("Deposit successful!")
-            print("New balance:", balance)
-        else:
-            print("Invalid amount.")
+        view_students(students)
 
     elif choice == "3":
-        amount = float(input("Enter withdrawal amount: "))
-
-        if amount <= 0:
-            print("Invalid amount.")
-        elif amount > balance:
-            print("Insufficient balance.")
-        else:
-            balance -= amount
-            print("Withdrawal successful!")
-            print("New balance:", balance)
+        passing, failing = count_passing_failing(students)
+        print("Passing students:", passing)
+        print("Failing students:", failing)
 
     elif choice == "4":
-        print("Thank you!")
-        break
+        find_student(students)
+
+    elif choice == "5":
+        print("Exiting Student Grade Inventory...")
+        running = False
 
     else:
-        print("Invalid choice.")
+        print("Invalid choice. Please enter 1-5.")
+```
 
-//
+main()
